@@ -1,0 +1,177 @@
+
+
+body {
+  background-image: url("diugh/Backdrop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  white-space: nowrap;
+  background-attachment: fixed;
+  height: calc( 300vh - 0px );
+display: block;
+}
+
+
+
+.video {
+left: 100px;
+}
+.box {
+  top: -50px;
+  width: 900px;
+  height: 900px;
+  padding-top: -100px;
+  padding-right: 0px;
+  margin: 10px;
+  right: 1000px;
+  background-color: #ffffff00;
+
+}
+
+.box2 {
+position: relative;
+  width: 200px;
+  height: 200px;
+  padding-Top: 0px;
+  padding-right: 0px;
+  line-height: 0;
+  margin: 0px;
+  right: 35%;
+  top: 5%;
+  background-color: #332342;
+}
+
+.text{
+  color: white;
+  font-family: 'destructonbeam';
+}
+.norm{
+  color: white;
+  font-family: 'cabinregular';
+}
+
+@font-face {
+  font-family: 'cabinregular'
+  src: url(diugh/Cabin-Regular-TTF.ttf);
+}
+
+.logo{
+  position: relative;
+    top: 90px;
+    left: -400px;
+    opacity: 1
+
+
+}
+
+@font-face{
+
+  font-family: 'destructonbeam';
+  src: url(diugh/destructobeambb_reg.ttf);
+
+}
+
+.nav{
+   width: 50%;
+  display:block;
+position: relative;
+top: 30px;
+right: -300px;
+color: white;
+font-size: 25px;
+background-color:none;
+text-decoration: none;
+font-family: 'destructonbeam';
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max width: 1000px;
+  position: relative;
+  margin-left: auto;
+}
+
+.Slides {
+  display: none;
+
+}
+.next {
+  right: -900px;
+  border-radius: 3 0 0 3px;
+
+}
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 3px;
+  margin: 0 15px;
+  background-color: #fc9803;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.1s ease;
+}
+
+.previous, .next {
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -12px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 3px 0;
+  transition: 0.3s ease;
+    padding: 150px 5px;
+}
+
+
+
+.previous:hover, .next:hover{
+  background-color: rgba(0,0,0,0.8);
+
+}
+.texti{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+
+}
+
+
+
+.active, .dot:hover {
+  background-color: #000000;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+
+}
+
+@@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
