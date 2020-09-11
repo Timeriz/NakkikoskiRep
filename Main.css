@@ -14,15 +14,21 @@ display: block;
 .video {
 left: 100px;
 }
+
+.SepLineOfNav{
+  background: white;
+  padding-top:3px;
+  border-radius: 5px;
+}
+
 .box {
-  top: -50px;
-  width: 900px;
+  margin-top: 30;
+  width: 1000px;
   height: 900px;
   padding-top: -100px;
   padding-right: 0px;
-  margin: 10px;
   right: 1000px;
-  background-color: #ffffff00;
+  background-color: rgba(0, 0, 0, 0.65);
 
 }
 
@@ -54,25 +60,22 @@ position: relative;
 }
 
 .logo{
+  margin-top: 25;
   position: relative;
-    top: 90px;
+    top: 75px;
     left: -400px;
     opacity: 1
-
 }
-
 @font-face{
 
   font-family: 'destructonbeam';
   src: url(diugh/destructobeambb_reg.ttf);
-
 }
-
 .nav{
    width: 50%;
   display:block;
 position: relative;
-top: 30px;
+margin-top: 25;
 right: -300px;
 color: white;
 font-size: 25px;
@@ -101,8 +104,8 @@ font-family: 'destructonbeam';
 
 .dot {
   cursor: pointer;
-  height: 20px;
-  width: 3px;
+  height: 10px;
+  width: 10px;
   margin: 0 15px;
   background-color: #fc9803;
   border-radius: 50%;
@@ -117,12 +120,12 @@ font-family: 'destructonbeam';
   top: 50%;
   width: auto;
   margin-top: -12px;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 3px 0;
   transition: 0.3s ease;
-    padding: 150px 5px;
+    padding: 125px 10px;
 }
 
 
