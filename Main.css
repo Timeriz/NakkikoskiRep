@@ -16,12 +16,14 @@ left: 100px;
 }
 
 .SepLineOfNav{
-  background: white;
-  padding-top:3px;
-  border-radius: 5px;
+border-radius: 25px;
+background: white;
+padding: 1px;
+width: 650px;
+height: 1px;
 }
 
-.box {
+.indexBox {
   margin-top: 30;
   width: 1000px;
   height: 900px;
@@ -29,7 +31,37 @@ left: 100px;
   padding-right: 0px;
   right: 1000px;
   background-color: rgba(0, 0, 0, 0.65);
-
+  border-radius: 10px;
+}
+.gamesBox {
+  margin-top: 30;
+  width: 1000px;
+  height: 900px;
+  padding-top: -100px;
+  padding-right: 0px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+}
+.videosBox {
+  margin-top: 30;
+  width: 1000px;
+  height: 900px;
+  padding-top: -100px;
+  padding-right: 0px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+}
+.aboutBox {
+  margin-top: 30;
+  width: 1000px;
+  height: 900px;
+  padding-top: -100px;
+  padding-right: 0px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
 }
 
 .box2 {
