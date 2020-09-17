@@ -1,20 +1,15 @@
-
-
+/*Main*/
 body {
-  background-image: url("diugh/Backdropnew.png");
+  background-image: url("content/Backdropnew.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  white-space: nowrap;
-  background-attachment: fixed;
-  height: calc( 300vh - 0px );
-display: block;
+      background-size: cover;
+      background-position: center;
+      white-space: nowrap;
+      background-attachment: fixed;
+      height: calc( 300vh - 0px );
+      display: block;
+      overflow-y: visible;
 }
-
-.video {
-left: 100px;
-}
-
 .SepLineOfNav{
 border-radius: 25px;
 background: white;
@@ -22,40 +17,6 @@ padding: 1px;
 width: 650px;
 height: 1px;
 }
-
-.indexBox {
-  margin-top: 150;
-  width: 1000px;
-  height: 900px;
-  right: 1000px;
-  background-color: rgba(0, 0, 0, 0.65);
-  border-radius: 10px;
-}
-.gamesBox {
-  margin-top: 150;
-  width: 1000px;
-  height: 900px;
-  right: 1000px;
-  background-color: rgba(0, 0, 0, 0.65);
-  border-radius: 10px;
-}
-.videosBox {
-  margin-top: 150;
-  width: 1000px;
-  height: 900px;
-  right: 1000px;
-  background-color: rgba(0, 0, 0, 0.65);
-  border-radius: 10px;
-}
-.programsBox {
-  margin-top: 150;
-  width: 1000px;
-  height: 900px;
-  right: 1000px;
-  background-color: rgba(0, 0, 0, 0.65);
-  border-radius: 10px;
-}
-
 .box2 {
 position: relative;
   width: 200px;
@@ -68,7 +29,6 @@ position: relative;
   top: 5%;
   background-color: #332342;
 }
-
 .text{
   color: white;
 
@@ -77,27 +37,11 @@ position: relative;
   color: white;
   font-family: 'cabinregular';
 }
-
-@font-face {
-  font-family: 'cabinregular'
-  src: url(diugh/Cabin-Regular-TTF.ttf);
-}
-
 .logo{
   margin-top: -125px;
   margin-left: 75px;
   position: absolute;
-
-    opacity: 1;
-}
-@font-face{
-  font-family: 'destructonbeam';
-  src: url(diugh/destructobeambb_reg.ttf);
-}
-.centerMain{
-  display none;
-  position: relative;
-  top: -50px;
+  opacity: 1;
 }
 .nav{
 float: right;
@@ -109,25 +53,26 @@ background-color:none;
 text-decoration: none;
 font-family: 'destructonbeam';
 }
-
-* {box-sizing:border-box}
-
-.slideshow-container {
-  max width: 1000px;
+.navBack{
+  width: 1000px;
+  height: 10px;
+}
+.centerMain{
+  display none;
   position: relative;
-  margin-left: auto;
+  top: -50px;
 }
 
-.Slides {
-  display: none;
+/*Index*/
 
+.indexBox {
+  margin-top: 150;
+  width: 1000px;
+  height: 900px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
 }
-.next {
-  right: -900px;
-  border-radius: 3 0 0 3px;
-
-}
-
 .dot {
   cursor: pointer;
    height: 10px;
@@ -139,7 +84,6 @@ font-family: 'destructonbeam';
    display: inline-block;
    transition: background-color 0.1s ease;
 }
-
 .previous, .next {
   user-select: none;
   cursor: pointer;
@@ -154,12 +98,22 @@ font-family: 'destructonbeam';
   transition: 0.3s ease;
     padding: 125px 10px;
 }
+* {box-sizing:border-box}
 
-
-
+.slideshow-container {
+  max width: 1000px;
+  position: relative;
+  margin-left: auto;
+}
+.Slides {
+  display: none;
+}
+.next {
+  right: -900px;
+  border-radius: 3 0 0 3px;
+}
 .previous:hover, .next:hover{
   background-color: rgba(0,0,0,0.8);
-
 }
 .texti{
   color: white;
@@ -170,7 +124,6 @@ font-family: 'destructonbeam';
   width: 100%;
   text-align: center;
 }
-
 .numbertext{
   color: #f2f2f2;
   font-size: 12px;
@@ -182,7 +135,6 @@ font-family: 'destructonbeam';
 .active, .dot:hover {
   background-color: #000000;
 }
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.5s;
@@ -197,6 +149,27 @@ font-family: 'destructonbeam';
 from {opacity: .4}
 to {opacity: 1}
 }
+/*Games*/
+
+.gamesBox {
+  margin-top: 150;
+  width: 1000px;
+  height: 900px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+}
+
+/*Programs*/
+
+.programsBox {
+  margin-top: 150;
+  width: 1000px;
+  height: 900px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+}
 .tools{
     position: absolute;
     float: left;
@@ -209,4 +182,30 @@ to {opacity: 1}
     height: 400px;
     margin-left: 737.25px;
     margin-top: 50px;
+}
+
+/*Videos*/
+
+.videosBox {
+  margin-top: 150;
+  width: 1000px;
+  height: 900px;
+  right: 1000px;
+  background-color: rgba(0, 0, 0, 0.65);
+
+}
+.video {
+left: 100px;
+}
+
+
+
+@font-face {
+  font-family: 'cabinregular'
+  src: url(content/Cabin-Regular-TTF.ttf);
+}
+
+@font-face{
+  font-family: 'destructonbeam';
+  src: url(content/destructobeambb_reg.ttf);
 }
