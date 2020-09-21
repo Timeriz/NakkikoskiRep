@@ -6,7 +6,7 @@ body {
       background-position: center;
       white-space: nowrap;
       background-attachment: fixed;
-      height: calc( 300vh - 0px );
+      /*height: calc( 300vh - 0px );*/
       display: block;
       overflow-y: visible;
 }
@@ -38,14 +38,15 @@ position: relative;
   font-family: 'cabinregular';
 }
 .logo{
-  margin-top: -125px;
-  margin-left: 75px;
+margin-top: -50px;
+  margin-left: 50px;
   position: absolute;
   opacity: 1;
 }
 .nav{
+
+  width: 1000px;
 float: right;
-margin-right: 75px;
 margin-top: -75px;
 color: white;
 font-size: 25px;
@@ -53,6 +54,11 @@ background-color:none;
 text-decoration: none;
 font-family: 'destructonbeam';
 }
+.navtext{
+  margin-right: -250px;
+  margin-left: 250px;
+}
+
 .navBack{
   width: 1000px;
   height: 10px;
