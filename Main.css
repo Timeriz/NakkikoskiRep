@@ -190,6 +190,19 @@ to {opacity: 1}
     margin-left: 737.25px;
     margin-top: 50px;
 }
+.random{
+  position: absolute;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+  border: 1px solid white;
+  border-left-style: none;
+  border-right-style: none;
+  width: 250px;
+  height: 400px;
+  margin-left: 12.25px;
+  margin-top: 50px;
+}
 
 /*Videos*/
 
@@ -208,7 +221,7 @@ left: 100px;
 
 
 
-@font-face {
+@font-face{
   font-family: 'cabinregular'
   src: url(content/Cabin-Regular-TTF.ttf);
 }
