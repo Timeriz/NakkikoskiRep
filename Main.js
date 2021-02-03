@@ -26,3 +26,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+(function() {
+  var where, bimps;
+  bimps = function(){
+    return alert (where);
+  };
+}).call(this);
